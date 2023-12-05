@@ -13,13 +13,17 @@ public class Study1For{
 		int num = sc.nextInt();
 		
 		//입력받은 정수의 약수를 출력하세요
+		//약수의 갯수를 출력하세요
 		//for(초기식;조건식;증감식){}
+		int count=0;
 		for(int i=1;i<num; i++) {
 			if(num%1==0) {
 				System.out.println(i);
+				count++;
 			}
-			
 		}
+		
+		System.out.println("총갯수: "+count);
 	}
 	
 
